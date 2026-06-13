@@ -1,0 +1,35 @@
+# Dépendances
+node_modules/
+package-lock.json
+yarn.lock
+
+# Fichiers de l'IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.log
+*.tmp
+.env
+.env.local
+
+# Dossier de build
+dist/
+build/
+
+# Fichiers système
+.git/
+.gitignore
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Images locales non commises (si vous le souhaitez)
+# images/*.jpg
+# images/*.png

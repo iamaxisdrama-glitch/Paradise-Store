@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Store - Téléphones et PC Portables</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">
+        <i class="fas fa-store"></i>
+        Paradise Store
+    </div>
+    
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#iphones">iPhone</a></li>
+        <li><a href="#android">Android</a></li>
+        <li><a href="#pc">PC Portables</a></li>
+        <li><a href="#support">Support</a></li>
+    </ul>
+    
+    <div class="actions">
+        <select>
+            <option>FR</option>
+            <option>EN</option>
+            <option>ES</option>
+        </select>
+        
+        <button id="darkModeBtn">
+            <i class="fas fa-moon"></i>
+        </button>
+        
+        <button class="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </button>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <div>
+        <h1>Bienvenue sur Paradise Store</h1>
+        <p>
+            Téléphones, iPhone, Android et PC portables
+            au meilleur prix.
+        </p>
+        <button class="hero-btn">Découvrir nos produits</button>
+    </div>
+</section>
+
+<!-- SEARCH SECTION -->
+<div class="search-section">
+    <input type="text" id="searchInput" placeholder="Rechercher un produit...">
+</div>
+
+<!-- IPHONES SECTION -->
+<section id="iphones">
+    <h2>iPhone</h2>
+    <div class="products">
+        <div class="card">
+            <img src="images/iphone11.jpg" alt="iPhone 11">
+            <h3>iPhone 11</h3>
+            <p>64 Go</p>
+            <span>$399 | 52 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/iphone12.jpg" alt="iPhone 12">
+            <h3>iPhone 12</h3>
+            <p>128 Go</p>
+            <span>$499 | 65 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/iphone13.jpg" alt="iPhone 13">
+            <h3>iPhone 13</h3>
+            <p>128 Go</p>
+            <span>$599 | 78 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/iphone14.jpg" alt="iPhone 14">
+            <h3>iPhone 14</h3>
+            <p>128 Go</p>
+            <span>$699 | 91 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/iphone15.jpg" alt="iPhone 15">
+            <h3>iPhone 15</h3>
+            <p>256 Go</p>
+            <span>$899 | 117 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/iphone16.jpg" alt="iPhone 16">
+            <h3>iPhone 16</h3>
+            <p>256 Go</p>
+            <span>$999 | 130 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/iphone17.jpg" alt="iPhone 17">
+            <h3>iPhone 17</h3>
+            <p>256 Go</p>
+            <span>$1099 | 143 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+    </div>
+</section>
+
+<!-- ANDROID SECTION -->
+<section id="android">
+    <h2>Android</h2>
+    <div class="products">
+        <div class="card">
+            <img src="images/s25ultra.jpg" alt="Samsung Galaxy S25 Ultra">
+            <h3>Samsung Galaxy S25 Ultra</h3>
+            <span>$1199 | 156 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/a56.jpg" alt="Samsung Galaxy A56">
+            <h3>Samsung Galaxy A56</h3>
+            <span>$499 | 65 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/pixel10.jpg" alt="Google Pixel 10 Pro">
+            <h3>Google Pixel 10 Pro</h3>
+            <span>$899 | 117 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/xiaomi16.jpg" alt="Xiaomi 16 Ultra">
+            <h3>Xiaomi 16 Ultra</h3>
+            <span>$999 | 130 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/oneplus15.jpg" alt="OnePlus 15">
+            <h3>OnePlus 15</h3>
+            <span>$799 | 104 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+    </div>
+</section>
+
+<!-- PC PORTABLES SECTION -->
+<section id="pc">
+    <h2>PC Portables</h2>
+    <div class="products">
+        <div class="card">
+            <img src="images/victus15.jpg" alt="HP Victus 15">
+            <h3>HP Victus 15</h3>
+            <span>$899 | 117 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/ideapad.jpg" alt="Lenovo IdeaPad Gaming 3">
+            <h3>Lenovo IdeaPad Gaming 3</h3>
+            <span>$999 | 130 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/asustuf.jpg" alt="ASUS TUF A15">
+            <h3>ASUS TUF A15</h3>
+            <span>$1099 | 143 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+
+        <div class="card">
+            <img src="images/aspire5.jpg" alt="Acer Aspire 5">
+            <h3>Acer Aspire 5</h3>
+            <span>$749 | 98 000 HTG</span>
+            <button class="add-cart">Ajouter au panier</button>
+        </div>
+    </div>
+</section>
+
+<!-- ACCOUNT SECTION -->
+<section class="account-section" id="account">
+    <h2>Créer un compte</h2>
+    <form class="account-form">
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <input type="password" placeholder="Mot de passe" required>
+        <button type="submit">Créer mon compte</button>
+    </form>
+</section>
+
+<!-- SUPPORT SECTION -->
+<section id="support">
+    <h2>Besoin d'aide ?</h2>
+    <form class="support-form">
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message..."></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <h3>Paradise Store</h3>
+    <p>
+        La technologie à votre portée.
+    </p>
+    <p>
+        © 2026 Paradise Store
+    </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

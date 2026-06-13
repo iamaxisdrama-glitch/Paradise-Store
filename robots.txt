@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iamaxisdrama-glitch.github.io/paradise-store/sitemap.xml
